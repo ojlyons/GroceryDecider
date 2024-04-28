@@ -1,0 +1,11 @@
+Ingredients,,,
+ingredient (pk),,,
+,,,
+RecipeIngredients,,,
+recipe (fk),ingredient (fk),amount (float),units (varchar)
+,,,
+Recipe,,,
+longname (varchar),uuid (pk),,
+,,,
+RecipeSteps,,,
+recipe (uuid) (fk),step_number (int),description (varchar),
